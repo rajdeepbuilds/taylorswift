@@ -51,6 +51,23 @@ const Hero = () => {
                     className="object-contain"/>
                   </motion.div>
                 </MouseParallaxChild>
+
+                <MouseParallaxChild
+                 factorX={0.9}
+                 factorY={0.9}
+                 className="absolute xl:left-6 z-30">
+                  <motion.div
+                  variants={fadeIn('up',0.7)}
+                  initial='hidden'
+                  whileInView={'show'}
+                  viewport={{once:false, amount:0.3}}
+                   className="w-[300px] h-[101.37px] xl:w-[625px] xl:h-[244.97px]">
+                    <Image src={'/assets/hero/Swift.svg'}
+                    fill
+                    alt=''
+                    className="object-contain"/>
+                  </motion.div>
+                </MouseParallaxChild>
               </MouseParallaxContainer>
             </div>
             {/* image */}
