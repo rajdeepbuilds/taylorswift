@@ -146,10 +146,10 @@ const Hero = () => {
         </div>
         {/* image */}
         <motion.div
-          variants={fadeIn("left", 0.2)}
+          variants={fadeIn("left", 0.5)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.6 }}
           className="hidden xl:flex absolute right-1 top-0 before:w-[784px] before:h-[893px]
              before:absolute before:right-0 before:top-0 before:bg-singerOverlay before:z-10"
         >

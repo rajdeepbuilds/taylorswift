@@ -36,11 +36,11 @@ body{
 }
  /* main player */
 .rap-progress{
-  @apply !bg-[#6519c8]
+  @apply !bg-[#6519c8];
 }
 
 .rap-pin{
-  @apply !bg-white
+  @apply !bg-white;
 }
 
 .rap-container .rap-slider .rap-progress .rap-pin{
@@ -69,6 +69,21 @@ body{
 }
 
 .rap-current-time,
- .rap-total-time{
-  @apply font-montserrat text-[13px] font-medium text-white;
+.rap-total-time{
+  @apply font-montserrat text-[13px] font-medium;}
+
+ .rap-container .rap-slider{
+  @apply !bg-[#33335b] !h-[2px];
+ }
+
+ .rap-container .rap-controls span{
+  @apply text-[15px];
+ }
+
+ .rap-volume-btn .rap-volume-open svg path {
+  @apply fill-white;
+ }
+
+ .rap-volume-controls{
+  @apply !bg-primary/80;
  }
