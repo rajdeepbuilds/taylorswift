@@ -25,7 +25,7 @@ const locationSequence = [
 
 const Hero = () => {
   return (
-    <section className="h-[80vh] xl:h-[850px] mb-10" id="home">
+    <section className="h-[80vh] xl:h-[850px] mb-5" id="home">
       <div
         className="container mx-auto h-full flex justify-center 
         items-center xl:justify-start"
