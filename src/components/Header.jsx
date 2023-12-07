@@ -6,6 +6,10 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import NavMobile from "./NavMobile";
 import Nav from "./Nav";
+import MenuBtn from "./MenuBtn";
+import SocialMedia from "./SocialMedia";
+
+
 
 const Header = () => {
   const [active,SetActive] = useState(false);
@@ -31,17 +35,20 @@ const Header = () => {
          <Image src={'/assets/header/logoo.svg'} fill className="object-contain"/>
         </Link>
         {/*nav*/}
+        
         <Nav ContainerStyles='hidden xl:flex item-center gap-x-8'/>
         {/*nav*/}
         <NavMobile/>
         {/*menu btn*/}
-        <div>menu btn</div>
+        <div className="absolute right-7 top9 z-10 xl:hidden">
+          <MenuBtn/>
+        </div>
         {/*social icons*/}
-        <div>social icons</div>
+        
       </div>
     </header>
   );
   
 };
 
-export default Header
+export default Header;
