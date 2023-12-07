@@ -14,7 +14,7 @@ const EventBox = ({events}) => {
       whileInView={'show'}
       viewport={{ once: false, amount: 0.3 }}
       className="bg-secondary/60 rounded-[10px] p-4 xl:p-12 relative" >
-      <div className="flex flex-col xl:flex-row justify-between h-[620px] xl:h-full gap-x-4 ">
+      <div className="flex flex-col xl:flex-row justify-between h-[620px] xl:h-full gap-x-4">
         {/*Image*/}
         <div className="hidden xl:flex w-[400px]">
           <Image
