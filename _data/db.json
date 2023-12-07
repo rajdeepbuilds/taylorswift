@@ -1,1 +1,415 @@
+{
+    "events":[
+      {
+        "id": 1,
+        "date": {
+          "day": "15",
+          "month": "Dec",
+          "year":"2023"
+        },
+        "location": {
+          "city": "Bunkyo City",
+          "country": "Japan",
+          "address": "Tokyo Dome"
+        },
+        "priceRange": "50-300$"
+      },
+      {
+        "id": 2,
+        "date": {
+          "day": "3",
+          "month": "Mar",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Kallang",
+          "country": "Singapore",
+          "address": "National Stadium"
+        },
+        "priceRange": "70-400$"
+      },
+      {
+        "id": 3,
+        "date": {
+          "day": "10",
+          "month": "Apr",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "address": "Paradiso"
+        },
+        "priceRange": "30-200$"
+      },
+      {
+        "id": 4,
+        "date": {
+          "day": "9",
+          "month": "May",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Nanterre",
+          "country": "France",
+          "address": "Paris La Defence arena"
+        },
+        "priceRange": "100-500$"
+      },
+      {
+        "id": 5,
+        "date": {
+          "day": "17",
+          "month": "May",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Solna",
+          "country": "Sweden",
+          "address": "Friends arena"
+        },
+        "priceRange": "50-300$"
+      },
+      {
+        "id": 6,
+        "date": {
+          "day": "3",
+          "month": "June",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Lyon",
+          "country": "France",
+          "address": "Groupama Stadium"
+        },
+        "priceRange": "40-200$"
+      },
+      {
+        "id": 7,
+        "date": {
+          "day": "9",
+          "month": "July",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Zurich",
+          "country": "Switzerland",
+          "address": "Stadion Letzigrund"
+        },
+        "priceRange": "90-300$"
+      },
+      {
+        "id": 8,
+        "date": {
+          "day": "13",
+          "month": "July",
+          "year":"2024"
+        },
+        "location": {
+          "city": "Milan",
+          "country": "Italy",
+          "address": "San siro Stadium"
+        },
+        "priceRange": "90-300$"
+      }
+    ],
+    "albums":[
+      {
+        "id":1,
+        "img":"/assets/albums/cover/ts1.png",
+        "name": "album 1",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":2,
+        "img":"/assets/albums/cover/ts2.png",
+        "name": "album 2",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":3,
+        "img":"/assets/albums/cover/ts3.png",
+        "name": "album 3",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":4,
+        "img":"/assets/albums/cover/ts4.png",
+        "name": "album 4",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":5,
+        "img":"/assets/albums/cover/ts5.png",
+        "name": "album 5",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":6,
+        "img":"/assets/albums/cover/ts6.png",
+        "name": "album 6",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      },
+
+      {
+        "id":7,
+        "img":"/assets/albums/cover/ts7.png",
+        "name": "album 7",
+        "tracks":[
+          {
+            "name":"Wildest Dreams",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Blank Space",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Love Story",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Bad Blood",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Lover",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Shake it off",
+            "src":"assets/freedom.mp3"
+          },
+          {
+            "name":"Enchanted",
+            "src":"assets/freedom.mp3"
+          }
+        ]
+      }
+      
+    ],
+    "posts":[
+      {
+        "id": 1,
+        "date": "2023-09-11",
+        "title": "EDM hits at Bunkyo City",
+        "description": "Join us for an amazing concert at Bunkyo City featuring Taylor Swift"
+      },
+      {
+        "id": 2,
+        "date": "2023-10-05",
+        "title": "Rock Fusion Night",
+        "description": "Experience a night of electrifying rock fusion with a surprise performance by Taylor Swift."
+      },
+      {
+        "id": 3,
+        "date": "2023-11-18",
+        "title": "Pop Extravaganza",
+        "description": "Join us for a pop music extravaganza featuring various artists and a special appearance by Taylor Swift."
+      },
+      {
+        "id": 4,
+        "date": "2023-12-22",
+        "title": "Jazz Lounge Sessions",
+        "description": "Relax and unwind at the jazz lounge with soulful performances, including a jazz collaboration with Taylor Swift."
+      },
+      {
+        "id": 5,
+        "date": "2024-02-14",
+        "title": "Valentine's Serenade",
+        "description": "Celebrate love with a romantic evening of serenades, including a heartwarming performance by Taylor Swift."
+      },
+      {
+        "id": 6,
+        "date": "2024-04-30",
+        "title": "Country Vibes Festival",
+        "description": "Immerse yourself in the charm of country music at the Country Vibes Festival, featuring a surprise country twist by Taylor Swift."
+      },
+      {
+        "id": 7,
+        "date": "2024-06-12",
+        "title": "Acoustic Bliss Showcase",
+        "description": "Experience the beauty of acoustic music in an intimate setting, with a special acoustic performance by Taylor Swift."
+      }
+    ]
+}
 
