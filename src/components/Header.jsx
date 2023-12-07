@@ -42,6 +42,7 @@ const Header = () => {
         {/*menu btn*/}
         <div className="absolute right-7 top9 z-10 xl:hidden">
           <MenuBtn/>
+          
         </div>
         {/*social icons*/}
         
