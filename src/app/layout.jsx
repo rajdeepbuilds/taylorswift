@@ -1,7 +1,3 @@
-process.on("uncaughtException", function (err) {
-  console.log(err);
-});
-
 import { Alex_Brush, Montserrat } from "next/font/google";
 import "./globals.css";
 
